@@ -1,0 +1,10 @@
+to make branch
+$ git checkout -b feature/home
+
+
+to check status
+$ git status
+
+to check remote version
+$ git remote -v
+

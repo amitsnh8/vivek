@@ -1,0 +1,132 @@
+/* CSS Document */
+body{
+    background:#f5f3fe;
+    margin:0;
+    padding:0;
+    }
+    .logobox
+    {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    }
+    .logo{justify-content:center;align-items: center;}
+    
+    .assistantbox
+    {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    padding-left: 50px;
+    padding-right: 100px;
+    }
+    .assistant{}
+    .assistanttext{display:flex;justify-content:center;align-items: center;}
+    .assistanttext h5{font-size: 20px;font-weight: bold;}
+    .regbox{display: flex;flex-direction: row;align-items: flex-start;padding: 0 0 0 100px;}
+    .regformbox{display: flex;flex-direction: column;align-items: flex-start;}
+    .dociconbox{display: flex;}
+    .dicon{padding-top: 130px;}
+     .reg-form-title{display: flex;flex-direction: column;align-items: flex-start;}
+        .reg-form-title h2{padding: 5px 0 5px 0;display: flex;}
+        .reg-formbox{
+            display: flex;flex-direction: row;align-items: flex-start;justify-content: flex-start;
+            padding: 0px 0 50px 0;
+            }
+            .reg-forminputbox{display: flex;flex-direction: row;align-items: flex-start;}
+            
+            .reg-forminput{display: flex;flex-direction: column;align-items: flex-start;padding: 5px 180px 5px 0;}
+            .p-r-115{padding-right: 115px;}
+            .p-r-35{padding-right: 35px;}
+            .reg-input{padding: 5px;}
+            .reg-inputtypecustom{width: 150px;background: none;border:1px solid #ccc;}
+            .reg-inputtype{width: 340px;background: none;border:1px solid #ccc;}
+            .reg-label{padding: 5px 3px;color: #ccc;font-size: 14px;}
+            .reg-formsubmitbox{display: flex;flex-direction: column;align-items: flex-end;justify-content: flex-end;padding-bottom: 50px;padding-top: 30px;}
+            .regbtn{
+                display: flex;
+                border: 0;
+                padding: 10px 30px;
+                background: #613aee;
+                color: #fff;
+                
+                }
+                .backbtn{
+                    display: flex;
+                    background: none;
+                    border: 0;
+                    padding: 10px 30px 10px 10px;
+                    color: #ccc;
+                    
+                    }
+    .conbox{
+        height: 500px;;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;align-items:center;}
+    .calenderbox{}
+    .funcbox{background:#fff;
+        margin-left: 30px;}
+        .form-title{display: flex;flex-direction: column;align-items: flex-start;}
+        .form-title h2{padding: 5px 20px 20px;}
+    .formbox{
+    padding: 50px 200px 50px 80px;
+    }
+    .forminputbox{display: flex;flex-direction: column;align-items: flex-start;padding-bottom: 30px;}
+    
+    .forminput{display: flex;flex-direction: row;align-items: flex-start;padding: 5px;}
+    .input{padding: 5px;}
+    .label{padding: 5px 3px;color: #ccc;font-size: 14px;}
+    .formsubmitbox{display: flex;flex-direction: column;align-items: flex-end;justify-content: flex-end;padding-bottom: 50px;}
+    .btn{
+        display: flex;
+        border-radius:25px;
+        border: 0;
+        padding: 10px 30px;
+        background: #613aee;
+        justify-content: flex-end;
+        color: #fff;
+        
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            padding: 0px 200px;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+        .navitem{display: inline-flex;flex-direction: row;}
+        .nav-item{display: inline-flex;}
+        .nav-link{
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 600;
+            color: #5370f8;
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+        .header{
+            width: 100%;
+            height: 100px;
+            background: #fff;
+            display:flex;
+            flex-direction:row;
+            justify-content:flex-end;
+            padding-left: 50px;
+            padding-right: 100px;
+            box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+            }
+            .verification-box{display: flex;flex-direction: row;align-items: center;justify-content: center;}
+            .email-box{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+            .mobile-box{display: flex;flex-direction: column;}
+            .email-icon{display: flex;align-items: center;justify-content: center;}
+            .phone-icon{display: flex;align-items: center;justify-content: center;}
+            .email-title{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+            .phone-title{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+            .email-info{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+            .email-link{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+            .phone-label{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+            .otp-box{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+            .phone-link{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+    
